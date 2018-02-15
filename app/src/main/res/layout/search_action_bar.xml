@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TableRow>
+
+
+        <EditText
+            android:id="@+id/edt_action_bar_search"
+            style="@style/Txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:ems="10"
+            android:gravity="left|center"
+            android:hint="Search notes"
+            android:inputType="text"
+            android:paddingLeft="10dp"/>
+
+
+
+    </TableRow>
+
+</TableLayout>
+
